@@ -166,7 +166,7 @@ export default {
 	font-family:'gothic', Arial, Helvetica, sans-serif;
   padding-left: 2em;
   width: 100%;
-  color: #FFF;
+  color: #FFFFFF;
   /*font-size: 10px;*/
   font-size: 16px;
   text-align: left;
