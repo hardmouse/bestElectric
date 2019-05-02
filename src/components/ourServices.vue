@@ -67,13 +67,13 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 
 <style scoped>
- .topSpacing{
-    background-image: url("../assets/images/wall/ourServices.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top:15vh;
-  }
+.topSpacing{
+  background-image: url("../assets/images/wall/ourServices.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top:15vh;
+}
  
 .homeBackground{
   position:absolute;

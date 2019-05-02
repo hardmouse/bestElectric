@@ -3,9 +3,9 @@ import Router from 'vue-router'
 import HomeTab from '@/components/Home'
 import AboutUsTab from '@/components/AboutUs'
 import ourServicesTab from '@/components/ourServices'
-import privacyPolicyTab from '@/components/PrivacyPolicy'
-import productsTab from '@/components/Products'
-import supportTab from '@/components/Support'
+import clientGalleryTab from '@/components/clientGallery'
+import testimonialsTab from '@/components/testimonials'
+import careersTab from '@/components/careers'
 import contactTab from '@/components/Contact'
 import adminTab from '@/components/Administrator'
 // import VueResource from 'vue-resource'
@@ -23,21 +23,21 @@ export default new Router({
         name: 'aboutUs',
         component: AboutUsTab
     }, {
-        path: '/products',
-        name: 'Products',
-        component: productsTab
-    }, {
-        path: '/PrivacyPolicy',
-        name: 'PrivacyPolicy',
-        component: privacyPolicyTab
-    }, {
         path: '/ourServices',
         name: 'ourServices',
         component: ourServicesTab
     }, {
-        path: '/support',
-        name: 'Support',
-        component: supportTab
+        path: '/clientGallery',
+        name: 'clientGallery',
+        component: clientGalleryTab
+    }, {
+        path: '/testimonials',
+        name: 'testimonials',
+        component: testimonialsTab
+    }, {
+        path: '/careers',
+        name: 'careers',
+        component: careersTab
     }, {
         path: '/contact',
         name: 'Contact',

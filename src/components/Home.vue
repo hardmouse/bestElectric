@@ -9,7 +9,7 @@
               <transition name="bounce">
                 <div class="middleBelt">BEST ELECTRIC CO.
                   <div class="subBelt" v-html="homeSlogan[this.$parent.hpNum]" v-if="this.$parent.homeTextShow">
-                    Professional electrical contractors serving Southern Ontario since 1991.
+                    Professional electrical contractors serving Southern Ontario since 1994.
                     </div>
                   </div>
               </transition>
@@ -24,37 +24,17 @@
   </div>
   <div class="headerbelt">
     <div class="container">
-      <div class="headerfont">Why Best Electric?</div>
-      <p>Best Electric provides electrical services to the Industrial, Commercial, Residential & Institutional markets. Here is a list of more common areas we work in. 
-        <br><br>
-        We have always worked with the belief that it is essential to work in tandem with all members of the project team, namely the Owner, Architect, Electrical & Mechanical Engineers, General Contractors & Other Sub-contractors. 
+      <div class="headerfont">WHY BEST ELECTRIC ?</div>
+      <p>For over thirty years, BEST Electric Co. has been serving the greater Toronto area and continues to thrive as a leading electrical contracting provider for our commercial, institutional, industrial and residential clients.
+                BEST Electric Co. is known for maintaining the highest standards of workmanship and safety. We pride ourselves on our exceptional service and unmatched customer satisfaction.
+            Our team of highly skilled experts employs crafted and time-tested methodologies to provide our clients with top quality, industry standard work.
+            At BEST Electric Co., our name says it all. We back up our claim with multiple satisfied clients spanning over thirty years of our existence.
+      <br><br><br>
       </p>
+      
     </div>
   </div>
-  <div class="container contentBody">
-    <div class="row">
-      <div class="col-md-4 col-sm-12 supportContent">
-<h5 class="yellowText">Industrial</h5>
-        <img src="../assets/images/site/pic1.jpg" class="supportImage">
-<p>
-Members registered in your customized registration system in minutes! No line ups and no hassles! Automation reduces volunteer workload by more than 60%! Detailed and customized reporting ensures complete control!
-</p>
-      </div>
-      <div class="col-md-4 col-sm-12 supportContent">
-<h5 class="yellowText">Commercial</h5>
-        <img src="../assets/images/site/pic2.jpg" class="supportImage">
-<p>
-No more chasing fees. Keep control with the industry’s first integrated and detailed payment reporting. Offer a staggered payment option. National volumes ensure that you will get all this for the lowest processing rates!
-</p>
-      </div>
-      <div class="col-md-4 col-sm-12 supportContent">
-<h5 class="yellowText">Residential</h5>
-        <img src="../assets/images/site/pic3.jpg" class="supportImage">
-<p>
-Offering Cheque or Cash payments? Let our Accounts Receivable Automated Emails chase fees without any efforts by you! Need to remind members of important information prior to your event? Reminder Auto Emails make sure your members are fully informed at just the right time!
-</p>
-      </div>
-    </div>
+ 
 
   </div>
 </div>
@@ -80,7 +60,7 @@ export default {
         "Our highly skilled and experienced team of experts drive our company’s success!",
         "Quality proven electrical contracting services for multiple repeat clients.",
         "Located in Markham, Ontario we service the greater Toronto area.",
-        "Professional electrical contractors serving Southern Ontario since 1991.",
+        "Professional electrical contractors serving Southern Ontario since 1994.",
         "Experts in commercial, institutional, industrial, and residential electrical contracting services."
       ],
       homeImageWhite: ["static/images/wall_1.jpg",
@@ -166,7 +146,7 @@ export default {
 	font-family:'gothic', Arial, Helvetica, sans-serif;
   padding-left: 2em;
   width: 100%;
-  color: #FFFFFF;
+  color: #FFF;
   /*font-size: 10px;*/
   font-size: 16px;
   text-align: left;

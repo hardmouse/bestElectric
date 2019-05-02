@@ -38,6 +38,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+.topSpacing{
+  background-image: url("../assets/images/wall/contact.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top:15vh;
+}
 h3{
 	font-family:'gothic', Arial, Helvetica, sans-serif;
 	margin-top:30px;

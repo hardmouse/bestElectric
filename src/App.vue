@@ -9,10 +9,10 @@
         <router-link to="/aboutUs" :class="['topnav-item',this.$route.name == 'aboutUs'?'activeTab':'', 'left']"> | ABOUT US</router-link>
         <!-- <router-link to="/Products" :class="['topnav-item', prodEnabled == true?'activeTab':'', 'left']">Link 2</router-link> -->
         <router-link to="/ourServices" :class="['topnav-item',this.$route.name == 'ourServices'?'activeTab':'', 'left']"> | OUR SERVICES</router-link>
-        <router-link to="" :class="['topnav-item',this.$route.name == 'clientgallery'?'activeTab':'', 'left']"> | CLIENT GALLERY</router-link>
-        <router-link to="" :class="['topnav-item',this.$route.name == 'Contact'?'activeTab':'', 'left']"> | TESTIMONIALS</router-link>
-        <router-link to="" :class="['topnav-item',this.$route.name == 'Contact'?'activeTab':'', 'left']"> | CAREERS</router-link>
-        <router-link to="" :class="['topnav-item',this.$route.name == 'Contact'?'activeTab':'', 'left']"> | CONTACT US</router-link>
+        <router-link to="/clientGallery" :class="['topnav-item',this.$route.name == 'clientGallery'?'activeTab':'', 'left']"> | CLIENT GALLERY</router-link>
+        <router-link to="/testimonials" :class="['topnav-item',this.$route.name == 'testimonials'?'activeTab':'', 'left']"> | TESTIMONIALS</router-link>
+        <router-link to="/careers" :class="['topnav-item',this.$route.name == 'careers'?'activeTab':'', 'left']"> | CAREERS</router-link>
+        <router-link to="/contact" :class="['topnav-item',this.$route.name == 'contact'?'activeTab':'', 'left']"> | CONTACT US</router-link>
         <router-link to="" class="icon topnav-item rightMenu" @click.native="onExpand()"><img src="./assets/images/site/menu.gif" border="0"></router-link>
         <!-- <router-link to="" class="topnav-item right" @click.native="loginShow = !loginShow">Register</router-link>
         <router-link to="/admin" :class="['topnav-item',this.$route.name == 'Administrator'?'activeTab':'', 'right']">Admin Login</router-link> --> 

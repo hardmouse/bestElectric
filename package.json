@@ -10,6 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@ecodev/natural-gallery-js": "^4.1.0",
     "bootstrap-vue": "^0.15.8",
     "json-loader": "^0.5.4",
     "vue": "^2.2.6",
