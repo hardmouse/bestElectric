@@ -12,11 +12,11 @@
     
     <div class="row" style="padding:0px;margin:0px;">
       <div class="headerbelt">
-        <div class="container"><div class="headerfont">ABOUT US</div></div>
+        <div class="container"><div class="headerfont">{{title}}</div></div>
       </div>
       <div class="container bodyContainer">
         <div class="col-xs-12 bodyText">
-          <img src="../assets/images/site/cogs.jpg" class="img-responsive"  style="float:left; margin-right:15px;" >
+          <img src="../assets/images/site/cogs.jpg" class="img-responsive"  style="float:left; margin-right:15px; margin-bottom:25px;" >
               <p>
                <strong>Best Electric Co. </strong>is a full service electrical contracting entity. With our head offices located in Markham, Ontario we have been servicing the greater Toronto area for more than 30 years.
                <br/><br/>
@@ -43,7 +43,7 @@ export default {
   name: 'hello',
   data () {
     return {
-      title: 'About Us',
+      title: 'ABOUT US',
       show: true
     }
   },

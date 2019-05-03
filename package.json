@@ -1,7 +1,7 @@
 {
   "name": "qe1",
   "version": "1.0.0",
-  "description": "QuickEnrollment project",
+  "description": "Best Electric Project",
   "author": "Jay <hardmouse@msn.com>",
   "private": true,
   "scripts": {
@@ -10,9 +10,11 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "@ecodev/natural-gallery-js": "^4.1.0",
+    "bootstrap": "^4.3.1",
     "bootstrap-vue": "^0.15.8",
+    "jquery": "^3.4.1",
     "json-loader": "^0.5.4",
+    "node-sass": "^4.12.0",
     "vue": "^2.2.6",
     "vue-router": "^2.3.1",
     "xml-loader": "^1.2.1"

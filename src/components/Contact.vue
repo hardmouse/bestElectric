@@ -25,7 +25,7 @@ export default {
   name: 'contact',
   data () {
     return {
-      title: 'Contact Us',
+      title: 'CONTACT US',
       show: true
     }
   },

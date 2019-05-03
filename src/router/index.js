@@ -8,6 +8,7 @@ import testimonialsTab from '@/components/testimonials'
 import careersTab from '@/components/careers'
 import contactTab from '@/components/Contact'
 import adminTab from '@/components/Administrator'
+
 // import VueResource from 'vue-resource'
 
 Vue.use(Router)
