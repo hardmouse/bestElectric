@@ -1,8 +1,8 @@
 {
-  "name": "qe1",
+  "name": "bESTeLECTRIC",
   "version": "1.0.0",
   "description": "Best Electric Project",
-  "author": "Jay <hardmouse@msn.com>",
+  "author": "Jay Yu<hardmouse@msn.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",

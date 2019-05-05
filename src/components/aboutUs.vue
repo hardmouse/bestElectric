@@ -45,7 +45,7 @@
 
 <script>
 export default {
-  name: "About Us",
+  name: "AboutUs",
   data() {
     return {
       title: "ABOUT US",
