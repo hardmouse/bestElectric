@@ -13,14 +13,6 @@
         <router-link to="/careers" :class="['topnav-item',this.$route.name == 'careers'?'activeTab':'', 'left']"> | CAREERS</router-link>
         <router-link to="/contact" :class="['topnav-item',this.$route.name == 'contact'?'activeTab':'', 'left']"> | CONTACT US</router-link>
         <router-link to="" class="icon topnav-item rightMenu" @click.native="onExpand()"><img src="./assets/images/site/menu-white.gif" border="0" id="menu-button"></router-link>
-        <!-- <router-link to="" class="topnav-item right" @click.native="loginShow = !loginShow">Register</router-link>
-        <router-link to="/admin" :class="['topnav-item',this.$route.name == 'Administrator'?'activeTab':'', 'right']">Admin Login</router-link> --> 
-        <!--<font style="color:#FFF;">
-        {{scrolled}}
-        {{yNum}}
-        {{screenWidth}}
-        </font>-->
-        <!--<a  href="javascript:void(0);" class="topnav-item left">({{this.$route.name}})</a>-->
       </div>
     </div>
 
