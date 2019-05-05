@@ -99,7 +99,6 @@ export default {
       qc:0,
     userInput: 0,
     randomNumber: 5,
-      // catagory: getRandomNumber,
       homeSlogan: [
         "Providing exceptional electrical contracting services across the greater Toronto area.",
         "Our highly skilled and experienced team of experts drive our company’s success!",
