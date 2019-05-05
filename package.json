@@ -1,8 +1,8 @@
 {
-  "name": "qe1",
+  "name": "bESTeLECTRIC",
   "version": "1.0.0",
-  "description": "QuickEnrollment project",
-  "author": "Jay <hardmouse@msn.com>",
+  "description": "Best Electric Project",
+  "author": "Jay Yu<hardmouse@msn.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -10,9 +10,14 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "@ecodev/natural-gallery-js": "^4.1.0",
+    "bootstrap": "^4.3.1",
     "bootstrap-vue": "^0.15.8",
+    "jquery": "^3.4.1",
     "json-loader": "^0.5.4",
+    "macaddress": "^0.2.9",
+    "mime": "^2.4.2",
+    "node-sass": "^4.12.0",
+    "randomatic": "^3.1.1",
     "vue": "^2.2.6",
     "vue-router": "^2.3.1",
     "xml-loader": "^1.2.1"
